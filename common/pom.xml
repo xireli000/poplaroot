@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.tunjix</groupId>
+        <artifactId>poplaroot</artifactId>
+        <version>0.0.2-beta</version>
+    </parent>
+
+    <groupId>com.tunjix.poplaroot</groupId>
+    <artifactId>common</artifactId>
+    <packaging>jar</packaging>
+    <version>${jar-version}</version>
+
+    <name>common</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jar-version>${base-version}</jar-version>
+    </properties>
+
+    <dependencies>
+
+    </dependencies>
+</project>
