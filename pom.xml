@@ -2,16 +2,14 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.github.xireli000</groupId>
+  <groupId>com.tunjix</groupId>
   <artifactId>poplaroot</artifactId>
   <version>0.0.1-beta</version>
   <packaging>jar</packaging>
   <name>poplaroot</name>
   <url>https://github.com/xireli000/poplaroot</url>
 
-  <description>
-    aop util
-  </description>
+  <description>tunjix poplaroot core lib</description>
 
   <developers>
     <developer>
@@ -126,7 +124,6 @@
             <version>0.4.0</version>
             <extensions>true</extensions>
             <configuration>
-              <!-- 这里的serverId是之前在settings.xml中配置的 -->
               <publishingServerId>poplarroot-xireli</publishingServerId>
               <tokenAuth>true</tokenAuth>
             </configuration>
