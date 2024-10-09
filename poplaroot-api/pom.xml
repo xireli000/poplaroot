@@ -8,20 +8,35 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>poplaroot-common</artifactId>
+    <artifactId>poplaroot-api</artifactId>
     <version>${jar-version}</version>
     <packaging>jar</packaging>
 
-    <name>poplaroot-common</name>
+    <name>poplaroot-api</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jar-version>${base-version}</jar-version>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <asm-version>9.7</asm-version>
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.tunjix</groupId>
+            <artifactId>poplaroot-common</artifactId>
+            <version>${jar-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>${asm-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-commons</artifactId>
+            <version>${asm-version}</version>
+        </dependency>
     </dependencies>
 </project>

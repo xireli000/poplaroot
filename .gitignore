@@ -1,3 +1,5 @@
 /.idea/
 /target/
 /common/target/
+/poplaroot-api/target/
+/poplaroot-common/target/
