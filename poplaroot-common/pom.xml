@@ -4,17 +4,15 @@
     <parent>
         <groupId>com.tunjix</groupId>
         <artifactId>poplaroot</artifactId>
-        <version>0.0.10-beta</version>
+        <version>0.0.11-beta</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.tunjix</groupId>
-    <artifactId>common</artifactId>
+    <artifactId>poplaroot-common</artifactId>
     <version>${jar-version}</version>
     <packaging>jar</packaging>
 
-
-    <name>common</name>
+    <name>poplaroot-common</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
