@@ -4,13 +4,13 @@
     <parent>
         <groupId>com.tunjix</groupId>
         <artifactId>poplaroot</artifactId>
-        <version>0.0.6-beta</version>
+        <version>0.0.7-beta-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <groupId>com.tunjix</groupId>
     <artifactId>common</artifactId>
-    <version>0.0.6-beta</version>
+    <version>0.0.7-beta-SNAPSHOT</version>
     <packaging>jar</packaging>
 
 
