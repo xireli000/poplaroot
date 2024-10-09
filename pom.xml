@@ -4,7 +4,7 @@
 
   <groupId>com.tunjix</groupId>
   <artifactId>poplaroot</artifactId>
-  <version>0.0.5-beta</version>
+  <version>0.0.6-beta</version>
   <packaging>pom</packaging>
   <name>poplaroot</name>
   <url>https://github.com/xireli000/poplaroot</url>
@@ -45,7 +45,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <base-version>0.0.5-beta</base-version>
+    <base-version>0.0.6-beta</base-version>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
   </properties>
